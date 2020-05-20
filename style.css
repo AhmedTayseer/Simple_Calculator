@@ -78,7 +78,7 @@ body{
     font-size: 15px;
 }
 
-#operation{
+#screen{
     margin-bottom: 20px;
     margin-left: 10px;
     height: 30px;
@@ -96,15 +96,7 @@ body{
     margin-left: 10px;
     border-color: aliceblue;
 }
-#operat{
-    margin-bottom: 20px;
-    margin-left: 10px;
-    height: 30px;
-    width: 150px;
-    border: solid;
-    border-radius: 15px;
-    border-color: aliceblue;
-}
+
 .txtin{
     margin-top: 5px;
     color:black;
