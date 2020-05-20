@@ -7,7 +7,7 @@ body{
 #calclatur{
     background-color: lightcoral;
     width: 300px;
-    height: 520px;
+    height: 550px;
     margin-top: 70px;
     margin-left: 70px;
     border-radius: 40px;
@@ -16,7 +16,7 @@ body{
 .num{
     border: lightgreen  ;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 30px;
     margin-right: 10px;
     width: 50px;
@@ -46,11 +46,12 @@ body{
     color: green;
     font-size: 15px;
     border-radius: 20px;
+    margin-left: 20px;
 
 
 }
 
-.eq{
+.opr{
     border: lightgreen  ;
     border-radius: 50%;
     margin-top: 20px;
@@ -62,17 +63,7 @@ body{
     font-size: 15px;
 
 }
-.history{
-    border:  lightcoral;
-    width: 200px;
-    height: 25px;
-    margin-top: 20px;
-    margin-left: 50px;
-    font-weight: bold;
-    color: green;
-    font-size: 15px;
-    border-radius: 10px;
-}
+
 
 #zero{
     border: lightgreen  ;
@@ -85,4 +76,49 @@ body{
     font-weight: bold;
     color: green;
     font-size: 15px;
+}
+
+#operation{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 150px;
+    border: solid;
+    border-radius: 15px;
+    border-color: aliceblue;
+
+}
+#value{
+    height: 30px;
+    width: 150px;
+    border: solid;
+    border-radius: 15px;
+    margin-left: 10px;
+    border-color: aliceblue;
+}
+#operat{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 150px;
+    border: solid;
+    border-radius: 15px;
+    border-color: aliceblue;
+}
+.txtin{
+    margin-top: 5px;
+    color:black;
+    margin-left: 10px;
+    
+
+}
+#history{
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+#output{
+    margin-left: 15px;
+
 }
