@@ -77,16 +77,17 @@ body{
     color: green;
     font-size: 15px;
 }
+#inputval{
+    width: 180px;
+    height: 25px;
+    border-radius: 20px;
 
+}
 #screen{
-    margin-bottom: 20px;
-    margin-left: 10px;
+    
     height: 30px;
     width: 150px;
-    border: solid;
-    border-radius: 15px;
-    border-color: aliceblue;
-
+    
 }
 #value{
     height: 30px;
@@ -104,13 +105,23 @@ body{
     
 
 }
-#history{
-    margin-top: 10px;
-    margin-left: 25px;
-    border-radius: 5px;
-}
 
 #output{
     margin-left: 15px;
 
+}
+
+#relod{
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+#run{
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
 }

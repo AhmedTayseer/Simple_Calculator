@@ -1,107 +1,97 @@
-// $("#one").click(function () {
-//     var num = $("#one").val();
-//     var x = $("#showNum").val
-//     var z = $("#result").val
-//     var newshow = $("<lable> " + num + "</lable>")
-//     if (x === ""){
-//         $('#showNum').append(newshow)
-//     }else if(z ===""){
-//         $('#showNum').append(newshow)
-//     }
-// })
 
-
-
-
-// $("#one").click(function(){
-//     var num = $("#one").val();
-//     var newshow = $("<input value = " + num + ">")
-//     $('#showNum').append(newshow)
-// })
+var num = 0;
 
 $("#one").click(function () {
-    var num = $("#one").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#one").val();
+    takeValue();
 })
-
-
 
 $("#two").click(function () {
-    var num = $("#two").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
-})
+     num = $("#two").val();
+        takeValue();
 
+})
 
 $("#three").click(function () {
-    var num = $("#three").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
-})
+     num = $("#three").val(); 
+        takeValue();
 
+})
 
 $("#four").click(function () {
-    var num = $("#four").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
-})
+     num = $("#four").val();
+        takeValue();
 
+})
 
 $("#five").click(function () {
-    var num = $("#five").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#five").val();
+        takeValue();
+
 })
 $("#six").click(function () {
-    var num = $("#six").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#six").val();
+        takeValue();
+
 })
 $("#seven").click(function () {
-    var num = $("#seven").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#seven").val();
+        takeValue();
+
 })
 $("#eight").click(function () {
-    var num = $("#eight").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#eight").val();
+        takeValue();
+
 })
 $("#nine").click(function () {
-    var num = $("#nine").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#nine").val();
+        takeValue();
+
 })
 $("#zero").click(function () {
-    var num = $("#zero").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#zero").val();
+        takeValue();
+
 })
 $("#add").click(function () {
-    var num = $("#add").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#add").val();
+        takeValue();
+
 })
 $("#sub").click(function () {
-    var num = $("#sub").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#sub").val();
+        takeValue();
+
 })
 $("#mul").click(function () {
-    var num = $("#mul").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#mul").val();
+        takeValue();
+
 })
 $("#div").click(function () {
-    var num = $("#div").val();
-    var newshow = $("<lable> " + num + "</lable>")
-    $('#showNum').append(newshow)
+     num = $("#div").val();
+        takeValue();
+
 })
 
 
+$("#run").click(function () {
+    var result = eval($('#inputval').val());
+	$('#inputval').val(result);
+})
 
 $("#relod").click(function () {
     location.reload(true);
 
 })
+
+function takeValue() {
+    document.getElementById('inputval').value += num;
+}
+
+function calculateResult() {
+	var result =eval($('#inputval').val());
+    $('#inputval').val(result) ;
+    
+}   
